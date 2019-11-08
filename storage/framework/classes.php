@@ -10,4 +10,5 @@
   'RainLab\\User\\Models\\Settings' => 'plugins\\rainlab\\user\\models\\Settings.php',
   'RainLab\\User\\Models\\UserGroup' => 'plugins\\rainlab\\user\\models\\UserGroup.php',
   'RainLab\\User\\Classes\\UserRedirector' => 'plugins\\rainlab\\user\\classes\\UserRedirector.php',
+  'cms\\Controllers\\themes' => 'modules\\cms\\controllers\\themes.php',
 );
