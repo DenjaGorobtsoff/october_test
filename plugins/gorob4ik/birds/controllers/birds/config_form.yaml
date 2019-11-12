@@ -1,0 +1,10 @@
+name: Birds
+form: $/gorob4ik/birds/models/birds/fields.yaml
+modelClass: Gorob4ik\Birds\Models\Birds
+defaultRedirect: gorob4ik/birds/birds
+create:
+    redirect: 'gorob4ik/birds/birds/update/:id'
+    redirectClose: gorob4ik/birds/birds
+update:
+    redirect: gorob4ik/birds/birds
+    redirectClose: gorob4ik/birds/birds

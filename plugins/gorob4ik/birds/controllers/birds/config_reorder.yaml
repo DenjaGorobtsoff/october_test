@@ -1,0 +1,4 @@
+title: Birds
+modelClass: Gorob4ik\Birds\Models\Birds
+toolbar:
+    buttons: reorder_toolbar

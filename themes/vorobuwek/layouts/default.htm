@@ -13,11 +13,14 @@ description = "Default layout"
         {% styles %}
     </head>
     <body>
+        {%  partial "header" %}
+
         <!-- Content -->
-        <section id="layout-content">
+        <section id="layout-content" class="container clearfix">
             {% page %}
         </section>
 
+        {%  partial "footer" %}
         <!-- Scripts -->
         <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
         <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>

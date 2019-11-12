@@ -1,0 +1,12 @@
+columns:
+    name:
+        label: 'Bird Name'
+        type: text
+        searchable: true
+    description:
+        label: About
+        type: text
+    created_at:
+        label: Date
+        type: datetime
+        sortable: true

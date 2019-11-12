@@ -1,0 +1,11 @@
+fields:
+    name:
+        label: 'Birds Name'
+        span: full
+        type: text
+        comment: 'Please add a bird name'
+    description:
+        label: 'Write About Bird'
+        span: full
+        size: ''
+        type: richeditor

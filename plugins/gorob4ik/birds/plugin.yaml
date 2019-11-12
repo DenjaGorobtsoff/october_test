@@ -1,0 +1,11 @@
+plugin:
+    name: 'gorob4ik.birds::lang.plugin.name'
+    description: 'gorob4ik.birds::lang.plugin.description'
+    author: Gorob4ik
+    icon: oc-icon-twitter
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Birds
+        url: gorob4ik/birds/birds
+        icon: icon-twitter

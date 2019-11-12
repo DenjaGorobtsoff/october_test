@@ -66,29 +66,42 @@ class __TwigTemplate_5910e75d809c394b5302d516d51ab3e88c35b5349e0d21b9877db5e7c30
         // line 12
         echo "    </head>
     <body>
+        ";
+        // line 14
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("header"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 15
+        echo "
         <!-- Content -->
-        <section id=\"layout-content\">
+        <section id=\"layout-content\" class=\"container clearfix\">
             ";
-        // line 16
+        // line 18
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFunction();
-        // line 17
+        // line 19
         echo "        </section>
 
-        <!-- Scripts -->
+        ";
+        // line 21
+        $context['__cms_partial_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
+        unset($context['__cms_partial_params']);
+        // line 22
+        echo "        <!-- Scripts -->
         <script src=\"";
-        // line 20
+        // line 23
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/jquery.js");
         echo "\"></script>
         <script src=\"";
-        // line 21
+        // line 24
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/vendor/bootstrap.js");
         echo "\"></script>
         <script src=\"";
-        // line 22
+        // line 25
         echo $this->extensions['Cms\Twig\Extension']->themeFilter("assets/javascript/app.js");
         echo "\"></script>
         ";
-        // line 23
+        // line 26
         $_minify = System\Classes\CombineAssets::instance()->useMinify;
         if ($_minify) {
             echo '<script src="' . Request::getBasePath() . '/modules/system/assets/js/framework.combined-min.js"></script>'.PHP_EOL;
@@ -99,11 +112,11 @@ class __TwigTemplate_5910e75d809c394b5302d516d51ab3e88c35b5349e0d21b9877db5e7c30
         }
         echo '<link rel="stylesheet" property="stylesheet" href="' . Request::getBasePath() .'/modules/system/assets/css/framework.extras'.($_minify ? '-min' : '').'.css">'.PHP_EOL;
         unset($_minify);
-        // line 24
+        // line 27
         echo "        ";
         echo $this->env->getExtension('Cms\Twig\Extension')->assetsFunction('js');
         echo $this->env->getExtension('Cms\Twig\Extension')->displayBlock('scripts');
-        // line 25
+        // line 28
         echo "
     </body>
 </html>";
@@ -121,7 +134,7 @@ class __TwigTemplate_5910e75d809c394b5302d516d51ab3e88c35b5349e0d21b9877db5e7c30
 
     public function getDebugInfo()
     {
-        return array (  107 => 25,  103 => 24,  92 => 23,  88 => 22,  84 => 21,  80 => 20,  75 => 17,  73 => 16,  67 => 12,  64 => 11,  60 => 10,  56 => 9,  51 => 7,  47 => 6,  43 => 5,  37 => 1,);
+        return array (  120 => 28,  116 => 27,  105 => 26,  101 => 25,  97 => 24,  93 => 23,  90 => 22,  86 => 21,  82 => 19,  80 => 18,  75 => 15,  71 => 14,  67 => 12,  64 => 11,  60 => 10,  56 => 9,  51 => 7,  47 => 6,  43 => 5,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -139,11 +152,14 @@ class __TwigTemplate_5910e75d809c394b5302d516d51ab3e88c35b5349e0d21b9877db5e7c30
         {% styles %}
     </head>
     <body>
+        {%  partial \"header\" %}
+
         <!-- Content -->
-        <section id=\"layout-content\">
+        <section id=\"layout-content\" class=\"container clearfix\">
             {% page %}
         </section>
 
+        {%  partial \"footer\" %}
         <!-- Scripts -->
         <script src=\"{{ 'assets/vendor/jquery.js'|theme }}\"></script>
         <script src=\"{{ 'assets/vendor/bootstrap.js'|theme }}\"></script>

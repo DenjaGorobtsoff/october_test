@@ -2,121 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4ae9b12-fbdd-453b-a265-5e551e750921" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/css/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/images/october.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/javascript/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/affix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/alerts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/badges.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/bootstrap.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/breadcrumbs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/button-groups.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/carousel.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/close.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/code.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/component-animations.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/dropdowns.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/glyphicons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/input-groups.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/jumbotron.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/labels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/list-group.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/media.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/alerts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/background-variant.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/border-radius.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/center-block.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/clearfix.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/gradients.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/grid-framework.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/hide-text.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/image.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/labels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/list-group.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/nav-divider.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/nav-vertical-align.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/opacity.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/pagination.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/panels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/progress-bar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/reset-filter.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/reset-text.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/resize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/responsive-visibility.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/size.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/tab-focus.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/table-row.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/text-emphasis.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/text-overflow.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/mixins/vendor-prefixes.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/modals.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/navbar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/navs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/normalize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/pager.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/pagination.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/panels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/popovers.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/print.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/progress-bars.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/responsive-embed.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/responsive-utilities.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/scaffolding.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/tables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/thumbnails.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/tooltip.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/type.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/utilities.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/less/wells.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/font/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/font/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/less/bootstrap.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/less/extras.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/less/font-awesome-ie7.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/assets/vendor/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/pages/homePage.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/partials/footer.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/partials/header.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/95/df/default.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/95/df/default.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/db/e1/header.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/e5/bf/homePage.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/f1/94/default.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/f9/f4/home.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/fd/b7/footer.htm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/26/26407da7fe7f455fd927eba980922b90dd9a5a6fa40cad39d034d18a9a708768.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/26/26407da7fe7f455fd927eba980922b90dd9a5a6fa40cad39d034d18a9a708768.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/2e/2eb209bfc83a650230b2bb3692c54f20255f289fc5fe9b48a1b052659937f70c.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/5d/5dea2ba60ed3f892f375b5702bc6d0d7ed035c6820e6705d73c497f5a381cacd.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/74/740d53b0732b1091010bb71dff007addf2e8d9cef0d8d100b0830c5d74698ac8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/b4/b4968e5f065cbd09300e549cf0320f8469e2443b8119c3c3c809607d42be2acf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/d7/d777d9df0202b1b2ed10879277c99ce45a246a66341c9b92e789621f81687db9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/06/63/06631eb3033d0e928d02c5762539e352bb7bf922" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/08/df/08dfdfd922681bba7ab5215d56b7da8dd8d64c53" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/0d/87/0d872fbf2325e919ea7e4b6c1a1a765263074d4d" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/23/90/2390731ae9fc864d3513152ef24529b67b7398cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/2e/6a/2e6a61dbc8c37d78f08c827a32d76f6cb7b4dce8" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/2e/6a/2e6a61dbc8c37d78f08c827a32d76f6cb7b4dce8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/33/46/33463cba45944417dd3b7bc3d1554005956e2774" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/40/2c/402c48b5ad4b1583c98c217f916ccc38f9a0bfd2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/42/75/4275efa5cf773b411b68117a7e9a758f438ed238" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/58/bf/58bf2070efc090c8308f82062d01e1459fee504c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/5e/b0/5eb0d8b2bafa2e4a3e610a03ad7a175ef6ad6708" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/6e/26/6e26bd3aa746716636219fac0148bb09000040b4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/76/ff/76ffe01f7017191926886536f04a9b8113fa4506" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/81/08/81088ee972be9acbd8e1be71ecc4b3b3a0d95aaf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/83/2d/832de8f52773a307cdbd3509fc6eb1c2efa2c0dc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/87/69/8769d23dd921f078a2d220e7f9a9adbee0ac6032" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/8d/95/8d95fe9ddf0ed76756982b6268c1da79ffd91246" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d2/bf/d2bfa1437aba00dadecca2b56617050d8f711997" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d9/06/d906a5597504713894cb6a6a3ffa5ecc434fe9f4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ef/f6/eff678004f5d9e1f8eda4497b128f310118da7c3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/f7/2e/f72e0426366fd3835515806afb93dab6592ebda3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/fd/6d/fd6d93ff9cc2de45e4f8904f45a5a06692cd2ac7" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/fd/6d/fd6d93ff9cc2de45e4f8904f45a5a06692cd2ac7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/fd/d9/fdd95f73e8a7b38da98ce16df1b7dca5a86fc03a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/content/placeholder/page.txt" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/content/placeholder/page.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/demo/pages/home.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/demo/pages/home.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/5APZZux7DZhdFcjc9RFR76eG8YXOVJTK7M62rXwc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/7djknhMn6Ick7WRuBU1ZIffzmueh56vORwNn9v7u" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/CMy1ivFrYMN5Z2pox5TC6mzfir9ESrBAPoMS4Vw1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ovCPp6NbKFJkqbPsCCpJ4znByHbRSb8Z3dVEq6tK" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/vorobuwek/pages/homePage.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vorobuwek/pages/homePage.htm" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -139,8 +76,26 @@
       <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            <state relative-caret-position="288">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/vorobuwek/partials/header.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/vorobuwek/partials/footer.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -149,18 +104,28 @@
         <entry file="file://$PROJECT_DIR$/themes/demo/pages/home.htm">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="5" selection-end-line="9" selection-end-column="6" />
+              <caret line="9" column="6" selection-start-line="5" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homePage.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homePage.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/homePage.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="180">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="birds.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/birds.htm">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="movies.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/movies.htm">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -171,8 +136,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm" />
         <option value="$PROJECT_DIR$/themes/demo/pages/home.htm" />
+        <option value="$PROJECT_DIR$/themes/vorobuwek/partials/footer.htm" />
+        <option value="$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm" />
+        <option value="$PROJECT_DIR$/themes/vorobuwek/partials/header.htm" />
         <option value="$PROJECT_DIR$/themes/vorobuwek/pages/homePage.htm" />
       </list>
     </option>
@@ -188,11 +155,10 @@
       <path value="$PROJECT_DIR$/vendor/kriswallsmith/assetic/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -213,13 +179,33 @@
             <path>
               <item name="october" type="b2602c69:ProjectViewProjectNode" />
               <item name="october" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="file" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="october" type="b2602c69:ProjectViewProjectNode" />
               <item name="october" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="october" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="october" type="b2602c69:ProjectViewProjectNode" />
@@ -230,57 +216,28 @@
               <item name="october" type="b2602c69:ProjectViewProjectNode" />
               <item name="october" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="october" type="b2602c69:ProjectViewProjectNode" />
               <item name="october" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="october" type="b2602c69:ProjectViewProjectNode" />
               <item name="october" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="october" type="b2602c69:ProjectViewProjectNode" />
-              <item name="october" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="october" type="b2602c69:ProjectViewProjectNode" />
-              <item name="october" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="october" type="b2602c69:ProjectViewProjectNode" />
-              <item name="october" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="october" type="b2602c69:ProjectViewProjectNode" />
-              <item name="october" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="javascript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="october" type="b2602c69:ProjectViewProjectNode" />
-              <item name="october" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,18 +286,21 @@
       <workItem from="1572993213269" duration="601000" />
       <workItem from="1572995165731" duration="18000" />
       <workItem from="1573063996511" duration="2752000" />
-      <workItem from="1573252158737" duration="1112000" />
+      <workItem from="1573252158737" duration="1937000" />
+      <workItem from="1573324004793" duration="5771000" />
+      <workItem from="1573392590475" duration="599000" />
+      <workItem from="1573521579904" duration="640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5528000" />
+    <option name="totallyTimeSpent" value="13363000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27228788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26444444" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -368,6 +328,76 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/themes/demo/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/partials/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/partials/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/pages/home.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="6" selection-start-line="5" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/homePage.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/pages/home.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="6" selection-start-line="5" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/homePage.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="111" selection-start-line="11" selection-start-column="111" selection-end-line="11" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/backend/controllers/AccessLogs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -535,9 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="34" column="34" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="34" />
-          <folding>
-            <element signature="e#42#72#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,26 +584,66 @@
     <entry file="file://$PROJECT_DIR$/themes/vorobuwek/assets/javascript/app.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/assets/images/october.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/demo/assets/images/theme-preview.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+        <state relative-caret-position="288">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/demo/pages/home.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="5" selection-end-line="9" selection-end-column="6" />
+          <caret line="9" column="6" selection-start-line="5" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/partials/footer.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/partials/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/system/models/file/fields.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/system/models/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="68" column="35" lean-forward="true" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/homePage.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/movies.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/birds.htm">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -1,4 +1,4 @@
-1573254635a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:975:"description = "Default layout"
+1573522825a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:1067:"description = "Default layout"
 ==
 <!DOCTYPE html>
 <html>
@@ -13,11 +13,14 @@
         {% styles %}
     </head>
     <body>
+        {%  partial "header" %}
+
         <!-- Content -->
-        <section id="layout-content">
+        <section id="layout-content" class="container clearfix">
             {% page %}
         </section>
 
+        {%  partial "footer" %}
         <!-- Scripts -->
         <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
         <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
@@ -27,7 +30,7 @@
 
     </body>
 </html>
-";s:5:"mtime";i:1573254033;s:6:"markup";s:940:"<!DOCTYPE html>
+";s:5:"mtime";i:1573331575;s:6:"markup";s:1032:"<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -40,11 +43,14 @@
         {% styles %}
     </head>
     <body>
+        {%  partial "header" %}
+
         <!-- Content -->
-        <section id="layout-content">
+        <section id="layout-content" class="container clearfix">
             {% page %}
         </section>
 
+        {%  partial "footer" %}
         <!-- Scripts -->
         <script src="{{ 'assets/vendor/jquery.js'|theme }}"></script>
         <script src="{{ 'assets/vendor/bootstrap.js'|theme }}"></script>
