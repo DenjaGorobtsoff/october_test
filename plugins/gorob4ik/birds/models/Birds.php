@@ -20,4 +20,15 @@ class Birds extends Model
      */
     public $rules = [
     ];
+
+    /**
+     * Relation
+     */
+
+    public $attachOne = [
+        'image' => 'System\Models\File'
+    ];
+    public $attachMany = [
+        'images_gallery' => 'System\Models\File'
+    ];
 }

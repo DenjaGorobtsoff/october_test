@@ -62,6 +62,17 @@ class __TwigTemplate_b3ec019577f08371beb31fbb65ea5113eb399b721f4f5fb6fee54660148
         echo $this->extensions['Cms\Twig\Extension']->pageFilter("movies");
         echo ">Movies</a>
                 </li>
+                <li class=\"";
+        // line 13
+        if ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "page", [], "any", false, false, false, 13), "id", [], "any", false, false, false, 13) == "birds")) {
+            echo " active ";
+        }
+        echo "\">
+                    <a href=";
+        // line 14
+        echo $this->extensions['Cms\Twig\Extension']->pageFilter("birds");
+        echo ">Birds</a>
+                </li>
             </ul>
         </nav>
     </div>
@@ -82,7 +93,7 @@ class __TwigTemplate_b3ec019577f08371beb31fbb65ea5113eb399b721f4f5fb6fee54660148
 
     public function getDebugInfo()
     {
-        return array (  62 => 11,  56 => 10,  51 => 8,  45 => 7,  37 => 1,);
+        return array (  73 => 14,  67 => 13,  62 => 11,  56 => 10,  51 => 8,  45 => 7,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -98,6 +109,9 @@ class __TwigTemplate_b3ec019577f08371beb31fbb65ea5113eb399b721f4f5fb6fee54660148
                 </li>
                 <li class=\"{% if this.page.id == 'movies' %} active {% endif %}\">
                     <a href={{'movies'|page}}>Movies</a>
+                </li>
+                <li class=\"{% if this.page.id == 'birds' %} active {% endif %}\">
+                    <a href={{'birds'|page}}>Birds</a>
                 </li>
             </ul>
         </nav>

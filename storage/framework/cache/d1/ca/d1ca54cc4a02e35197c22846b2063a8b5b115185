@@ -1,0 +1,59 @@
+1573606836a:1:{s:8:"bird.htm";a:10:{s:8:"fileName";s:8:"bird.htm";s:7:"content";s:894:"title = "Bird"
+url = "/bird/:slug"
+layout = "default"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Gorob4ik\Birds\Models\Birds"
+identifierValue = "{{ :slug }}"
+modelKeyColumn = "slug"
+displayColumn = "name"
+notFoundMessage = "Record not found"
+==
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+    <h2>{{record.name}}</h2>
+    <h3>Gallery</h3>
+    <ul class="gallery clearfix">
+        {% for image in record.images_gallery %}
+            <a href="{{ image.path }}">
+                <li><img src="{{image.thumb('150', auto)}}" alt=""></li>
+            </a>
+
+        {% endfor %}
+    </ul>
+
+
+    <p>{{record.description | raw}}</p>
+
+    <span class="date">{{record.created_at}}</span>
+
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}";s:5:"mtime";i:1573606235;s:6:"markup";s:634:"{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+    <h2>{{record.name}}</h2>
+    <h3>Gallery</h3>
+    <ul class="gallery clearfix">
+        {% for image in record.images_gallery %}
+            <a href="{{ image.path }}">
+                <li><img src="{{image.thumb('150', auto)}}" alt=""></li>
+            </a>
+
+        {% endfor %}
+    </ul>
+
+
+    <p>{{record.description | raw}}</p>
+
+    <span class="date">{{record.created_at}}</span>
+
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}";s:4:"code";N;s:5:"title";s:4:"Bird";s:3:"url";s:11:"/bird/:slug";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:14:"builderDetails";a:5:{s:10:"modelClass";s:27:"Gorob4ik\Birds\Models\Birds";s:15:"identifierValue";s:11:"{{ :slug }}";s:14:"modelKeyColumn";s:4:"slug";s:13:"displayColumn";s:4:"name";s:15:"notFoundMessage";s:16:"Record not found";}}}

@@ -1,4 +1,4 @@
-1573522825a:1:{s:10:"header.htm";a:5:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:554:"<header class="main-header">
+1573606710a:1:{s:10:"header.htm";a:5:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:715:"<header class="main-header">
     <div class="container clearfix">
         <h1 class="logo">PART OF SITE</h1>
 
@@ -9,13 +9,16 @@
                 </li>
                 <li class="{% if this.page.id == 'movies' %} active {% endif %}">
                     <a href={{'movies'|page}}>Movies</a>
+                </li>
+                <li class="{% if this.page.id == 'birds' %} active {% endif %}">
+                    <a href={{'birds'|page}}>Birds</a>
                 </li>
             </ul>
         </nav>
     </div>
 
 
-</header>";s:5:"mtime";i:1573335887;s:6:"markup";s:554:"<header class="main-header">
+</header>";s:5:"mtime";i:1573602414;s:6:"markup";s:715:"<header class="main-header">
     <div class="container clearfix">
         <h1 class="logo">PART OF SITE</h1>
 
@@ -26,6 +29,9 @@
                 </li>
                 <li class="{% if this.page.id == 'movies' %} active {% endif %}">
                     <a href={{'movies'|page}}>Movies</a>
+                </li>
+                <li class="{% if this.page.id == 'birds' %} active {% endif %}">
+                    <a href={{'birds'|page}}>Birds</a>
                 </li>
             </ul>
         </nav>

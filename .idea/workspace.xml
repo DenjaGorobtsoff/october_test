@@ -2,58 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4ae9b12-fbdd-453b-a265-5e551e750921" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/partials/footer.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/themes/vorobuwek/partials/header.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/cache/95/df/default.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/95/df/default.htm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/cache/db/e1/header.htm.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/cache/e5/bf/homePage.htm.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/cache/f1/94/default.htm.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/cache/f9/f4/home.htm.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/cache/fd/b7/footer.htm.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/twig/26/26407da7fe7f455fd927eba980922b90dd9a5a6fa40cad39d034d18a9a708768.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/26/26407da7fe7f455fd927eba980922b90dd9a5a6fa40cad39d034d18a9a708768.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/twig/2e/2eb209bfc83a650230b2bb3692c54f20255f289fc5fe9b48a1b052659937f70c.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/twig/5d/5dea2ba60ed3f892f375b5702bc6d0d7ed035c6820e6705d73c497f5a381cacd.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/twig/74/740d53b0732b1091010bb71dff007addf2e8d9cef0d8d100b0830c5d74698ac8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/twig/b4/b4968e5f065cbd09300e549cf0320f8469e2443b8119c3c3c809607d42be2acf.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/cms/twig/d7/d777d9df0202b1b2ed10879277c99ce45a246a66341c9b92e789621f81687db9.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/06/63/06631eb3033d0e928d02c5762539e352bb7bf922" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/08/df/08dfdfd922681bba7ab5215d56b7da8dd8d64c53" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/0d/87/0d872fbf2325e919ea7e4b6c1a1a765263074d4d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/11/de/11de31e1eabb2682cf62ee9c9ccb0630f1019006" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/22/43/2243f500ae1632e1e609a9d4d08e7bad65800071" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/23/90/2390731ae9fc864d3513152ef24529b67b7398cf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gorob4ik/birds/models/Birds.php" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/gorob4ik/birds/models/Birds.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gorob4ik/birds/models/birds/fields.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/gorob4ik/birds/models/birds/fields.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/gorob4ik/birds/updates/version.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/gorob4ik/birds/updates/version.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/6e/a0/header.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/6e/a0/header.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/cache/f3/11/birds.htm.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/cache/f3/11/birds.htm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/ec/ec39dc7c1023c5e78674c6b24b894ec30490781a97f46001a5fa43b96923f568.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/ec/ec39dc7c1023c5e78674c6b24b894ec30490781a97f46001a5fa43b96923f568.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/cms/twig/f5/f5d327c907b19e0a91336f5644f66387c0517d90e2623306f3c9280f13952734.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/cms/twig/f5/f5d327c907b19e0a91336f5644f66387c0517d90e2623306f3c9280f13952734.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/0d/d0/0dd0d487db07b05fffc123b52fa43ae76af6431a" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/0d/d0/0dd0d487db07b05fffc123b52fa43ae76af6431a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/20/2c/202c5e800b894cfce01995b856782890238323d5" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/20/2c/202c5e800b894cfce01995b856782890238323d5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/2e/6a/2e6a61dbc8c37d78f08c827a32d76f6cb7b4dce8" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/2e/6a/2e6a61dbc8c37d78f08c827a32d76f6cb7b4dce8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/33/46/33463cba45944417dd3b7bc3d1554005956e2774" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/40/2c/402c48b5ad4b1583c98c217f916ccc38f9a0bfd2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/42/75/4275efa5cf773b411b68117a7e9a758f438ed238" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/58/bf/58bf2070efc090c8308f82062d01e1459fee504c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/5e/b0/5eb0d8b2bafa2e4a3e610a03ad7a175ef6ad6708" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/6e/26/6e26bd3aa746716636219fac0148bb09000040b4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/72/4d/724d64623b82cdd367a46a1a3611b8fce75faedf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/76/ff/76ffe01f7017191926886536f04a9b8113fa4506" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/77/61/77616e1c5e0d202cb4cf522bddafaebf56f27660" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/81/08/81088ee972be9acbd8e1be71ecc4b3b3a0d95aaf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/83/2d/832de8f52773a307cdbd3509fc6eb1c2efa2c0dc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/87/69/8769d23dd921f078a2d220e7f9a9adbee0ac6032" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/8d/95/8d95fe9ddf0ed76756982b6268c1da79ffd91246" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/36/9d/369d8d214b428dce0b53bdca2ac7f1883b0979ac" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/36/9d/369d8d214b428dce0b53bdca2ac7f1883b0979ac" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/97/37/9737833e426f53b3dcb4d98fdcb68c76762765de" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/a0/c9/a0c910eb995ad1e9281e5bb05187281e039e242f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/b1/b6/b1b6b61b6cd58fcbec08f9d00687d524901e8a6d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/9f/e4/9fe4a158570b7197e9769c32f76c57976db6b2bd" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/9f/e4/9fe4a158570b7197e9769c32f76c57976db6b2bd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/c8/ee/c8ee194d0fc9f2160cd93a5a3660871ec5ddc08b" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/c8/ee/c8ee194d0fc9f2160cd93a5a3660871ec5ddc08b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/d0/1e/d01e8e95ac402ba16ad83ad09f6851991c3b6212" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d2/bf/d2bfa1437aba00dadecca2b56617050d8f711997" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/d9/06/d906a5597504713894cb6a6a3ffa5ecc434fe9f4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/ef/f6/eff678004f5d9e1f8eda4497b128f310118da7c3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/f7/2e/f72e0426366fd3835515806afb93dab6592ebda3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/f8/ce/f8ce81eea32bf00106d06cc4957352f28d007ef1" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/f8/ce/f8ce81eea32bf00106d06cc4957352f28d007ef1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/cache/fd/6d/fd6d93ff9cc2de45e4f8904f45a5a06692cd2ac7" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/cache/fd/6d/fd6d93ff9cc2de45e4f8904f45a5a06692cd2ac7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/cache/fd/d9/fdd95f73e8a7b38da98ce16df1b7dca5a86fc03a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/framework/classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/classes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/5APZZux7DZhdFcjc9RFR76eG8YXOVJTK7M62rXwc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/7djknhMn6Ick7WRuBU1ZIffzmueh56vORwNn9v7u" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/CMy1ivFrYMN5Z2pox5TC6mzfir9ESrBAPoMS4Vw1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/ovCPp6NbKFJkqbPsCCpJ4znByHbRSb8Z3dVEq6tK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/vorobuwek/pages/homePage.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vorobuwek/pages/homePage.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/sessions/Gopsxv0eLiylzHEf2vBDwmLe88Ee7e23LLpXSFy7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/vorobuwek/pages/birds.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vorobuwek/pages/birds.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/vorobuwek/partials/header.htm" beforeDir="false" afterPath="$PROJECT_DIR$/themes/vorobuwek/partials/header.htm" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,18 +35,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/demo/layouts/default.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" selection-start-column="23" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="234">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
@@ -85,10 +46,15 @@
       <file leaf-file-name="header.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/vorobuwek/partials/header.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="180">
+              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="theme.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/vorobuwek/assets/css/theme.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="footer.htm" pinned="false" current-in-tab="false">
@@ -118,9 +84,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="birds.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="birds.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/birds.htm">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Birds.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugins/gorob4ik/birds/models/Birds.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bird.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/bird.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="movies.htm" pinned="false" current-in-tab="false">
@@ -129,6 +117,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main-header</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,8 +132,12 @@
         <option value="$PROJECT_DIR$/themes/demo/pages/home.htm" />
         <option value="$PROJECT_DIR$/themes/vorobuwek/partials/footer.htm" />
         <option value="$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm" />
-        <option value="$PROJECT_DIR$/themes/vorobuwek/partials/header.htm" />
         <option value="$PROJECT_DIR$/themes/vorobuwek/pages/homePage.htm" />
+        <option value="$PROJECT_DIR$/themes/vorobuwek/assets/css/theme.css" />
+        <option value="$PROJECT_DIR$/themes/vorobuwek/partials/header.htm" />
+        <option value="$PROJECT_DIR$/themes/vorobuwek/pages/birds.htm" />
+        <option value="$PROJECT_DIR$/plugins/gorob4ik/birds/models/Birds.php" />
+        <option value="$PROJECT_DIR$/themes/vorobuwek/pages/bird.htm" />
       </list>
     </option>
   </component>
@@ -168,7 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,39 +180,92 @@
             <path>
               <item name="october" type="b2602c69:ProjectViewProjectNode" />
               <item name="october" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="october" type="b2602c69:ProjectViewProjectNode" />
-              <item name="october" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="october" type="b2602c69:ProjectViewProjectNode" />
-              <item name="october" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="october" type="b2602c69:ProjectViewProjectNode" />
-              <item name="october" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="october" type="b2602c69:ProjectViewProjectNode" />
               <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="gorob4ik" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="gorob4ik" type="462c0819:PsiDirectoryNode" />
+              <item name="birds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="gorob4ik" type="462c0819:PsiDirectoryNode" />
+              <item name="birds" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="october" type="b2602c69:ProjectViewProjectNode" />
               <item name="october" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="october" type="b2602c69:ProjectViewProjectNode" />
+              <item name="october" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="vorobuwek" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="october" type="b2602c69:ProjectViewProjectNode" />
@@ -243,6 +292,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,6 +300,7 @@
     <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -289,18 +340,19 @@
       <workItem from="1573252158737" duration="1937000" />
       <workItem from="1573324004793" duration="5771000" />
       <workItem from="1573392590475" duration="599000" />
-      <workItem from="1573521579904" duration="640000" />
+      <workItem from="1573521579904" duration="1425000" />
+      <workItem from="1573602078397" duration="3959000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13363000" />
+    <option name="totallyTimeSpent" value="18107000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26444444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27222222" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -309,7 +361,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32996634" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32993197" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -328,27 +380,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/demo/layouts/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/partials/header.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/vorobuwek/partials/footer.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -575,9 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/assets/css/theme.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/vorobuwek/assets/vendor/bootstrap/js/tab.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -590,13 +618,6 @@
     <entry file="file://$PROJECT_DIR$/themes/demo/assets/images/theme-preview.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/demo/pages/home.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -608,13 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/partials/header.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -632,6 +646,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/movies.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/homePage.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -639,11 +656,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/movies.htm">
+    <entry file="file://$PROJECT_DIR$/themes/demo/assets/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="1" lean-forward="true" selection-end-line="464" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/assets/css/theme.css">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/layouts/default.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/partials/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/birds.htm">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/gorob4ik/birds/models/Birds.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/vorobuwek/pages/bird.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.1960581" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

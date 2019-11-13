@@ -9,3 +9,21 @@ fields:
         span: full
         size: ''
         type: richeditor
+    slug:
+        label: Slug
+        span: full
+        preset:
+            field: name
+            type: slug
+        type: text
+    images_gallery:
+        label: 'Add Images'
+        mode: image
+        imageWidth: '100'
+        imageHeight: '100'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
