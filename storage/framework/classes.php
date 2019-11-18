@@ -81,4 +81,5 @@
   'Gorob4ik\\Birds\\Models\\Birds' => 'plugins\\gorob4ik\\birds\\models\\Birds.php',
   'RainLab\\Builder\\Classes\\ComponentHelper' => 'plugins\\rainlab\\builder\\classes\\ComponentHelper.php',
   'backend\\Controllers\\media' => 'modules\\backend\\controllers\\media.php',
+  'bedard\\debugbar\\Plugin' => 'plugins\\bedard\\debugbar\\Plugin.php',
 );

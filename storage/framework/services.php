@@ -32,6 +32,7 @@
     28 => 'October\\Rain\\Mail\\MailServiceProvider',
     29 => 'October\\Rain\\Argon\\ArgonServiceProvider',
     30 => 'System\\ServiceProvider',
+    31 => 'Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider',
   ),
   'eager' => 
   array (
@@ -155,6 +156,8 @@
     'swift.mailer' => 'October\\Rain\\Mail\\MailServiceProvider',
     'swift.transport' => 'October\\Rain\\Mail\\MailServiceProvider',
     'Illuminate\\Mail\\Markdown' => 'October\\Rain\\Mail\\MailServiceProvider',
+    'command.ide-helper.generate' => 'Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider',
+    'command.ide-helper.models' => 'Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider',
   ),
   'when' => 
   array (
@@ -195,6 +198,9 @@
     array (
     ),
     'October\\Rain\\Mail\\MailServiceProvider' => 
+    array (
+    ),
+    'Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider' => 
     array (
     ),
   ),
