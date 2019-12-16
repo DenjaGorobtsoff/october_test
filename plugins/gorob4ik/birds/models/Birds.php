@@ -25,6 +25,15 @@ class Birds extends Model
      * Relation
      */
 
+    public $belongsToMany = [
+        'types' => [
+            'Gorob4ik\Birds\Models\BirdsType',
+            'table' => 'gorob4ik_birds_birds_types',
+            'order' => 'bird_type'
+        ]
+
+    ];
+
     public $attachOne = [
         'image' => 'System\Models\File'
     ];

@@ -27,3 +27,9 @@ fields:
             extension: auto
         span: auto
         type: fileupload
+    types:
+        label: 'Bird Type'
+        span: auto
+        nameFrom: bird_type
+        descriptionFrom: description
+        type: relation

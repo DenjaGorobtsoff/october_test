@@ -9,3 +9,8 @@ navigation:
         label: Birds
         url: gorob4ik/birds/birds
         icon: icon-twitter
+        sideMenu:
+            side-menu-item:
+                label: 'Birds Type'
+                url: gorob4ik/birds/birdsType
+                icon: icon-check

@@ -1,0 +1,6 @@
+columns:
+    bird_type:
+        label: 'Byrds Type'
+        type: text
+        searchable: true
+        sortable: true

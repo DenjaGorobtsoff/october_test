@@ -1,4 +1,4 @@
-1574040464a:1:{s:8:"bird.htm";a:10:{s:8:"fileName";s:8:"bird.htm";s:7:"content";s:894:"title = "Bird"
+1576269909a:1:{s:8:"bird.htm";a:10:{s:8:"fileName";s:8:"bird.htm";s:7:"content";s:1129:"title = "Bird"
 url = "/bird/:slug"
 layout = "default"
 is_hidden = 0
@@ -26,14 +26,24 @@ notFoundMessage = "Record not found"
         {% endfor %}
     </ul>
 
+    <h2>About Bird</h2>
+
 
     <p>{{record.description | raw}}</p>
 
-    <span class="date">{{record.created_at}}</span>
+    <h3>Birds Type</h3>
+
+    {% for bird_type in record.types %}
+
+        <a href="{{ 'birds-type' | page ( { slug :bird_type.slug} ) }}">{{ bird_type.bird_type }}</a><br />
+
+    {% endfor %}
+
+    <p><span class="date">{{record.created_at}}</span></p>
 
 {% else %}
     {{ notFoundMessage }}
-{% endif %}";s:5:"mtime";i:1573606235;s:6:"markup";s:634:"{% set record = builderDetails.record %}
+{% endif %}";s:5:"mtime";i:1574810805;s:6:"markup";s:869:"{% set record = builderDetails.record %}
 {% set displayColumn = builderDetails.displayColumn %}
 {% set notFoundMessage = builderDetails.notFoundMessage %}
 
@@ -49,10 +59,20 @@ notFoundMessage = "Record not found"
         {% endfor %}
     </ul>
 
+    <h2>About Bird</h2>
+
 
     <p>{{record.description | raw}}</p>
 
-    <span class="date">{{record.created_at}}</span>
+    <h3>Birds Type</h3>
+
+    {% for bird_type in record.types %}
+
+        <a href="{{ 'birds-type' | page ( { slug :bird_type.slug} ) }}">{{ bird_type.bird_type }}</a><br />
+
+    {% endfor %}
+
+    <p><span class="date">{{record.created_at}}</span></p>
 
 {% else %}
     {{ notFoundMessage }}

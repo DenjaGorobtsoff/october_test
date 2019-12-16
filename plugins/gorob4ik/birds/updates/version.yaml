@@ -6,3 +6,39 @@
 1.0.3:
     - 'Updated table gorob4ik_birds_'
     - builder_table_update_gorob4ik_birds_.php
+1.0.4:
+    - 'Created table gorob4ik_birds_types'
+    - builder_table_create_gorob4ik_birds_types.php
+1.0.5:
+    - 'Created table gorob4ik_birds_bird_types'
+    - builder_table_create_gorob4ik_birds_bird_types.php
+1.0.6:
+    - 'Updated table gorob4ik_birds_bird_types'
+    - builder_table_update_gorob4ik_birds_bird_types.php
+1.0.7:
+    - 'Updated table gorob4ik_birds_types'
+    - builder_table_update_gorob4ik_birds_types.php
+1.0.8:
+    - 'Updated table gorob4ik_birds_bird_types'
+    - builder_table_update_gorob4ik_birds_birds_types.php
+1.0.9:
+    - 'Updated table gorob4ik_birds_birds_types'
+    - builder_table_update_gorob4ik_birds_birds_types_2.php
+1.0.10:
+    - 'Updated table gorob4ik_birds_birds_types'
+    - builder_table_update_gorob4ik_birds_birds_types_3.php
+1.0.11:
+    - 'Updated table gorob4ik_birds_birds_types'
+    - builder_table_update_gorob4ik_birds_birds_types_4.php
+1.0.12:
+    - 'Updated table gorob4ik_birds_birds_types'
+    - builder_table_update_gorob4ik_birds_birds_types_5.php
+1.0.13:
+    - 'Updated table gorob4ik_birds_birds_types'
+    - builder_table_update_gorob4ik_birds_birds_types_6.php
+1.0.14:
+    - 'Updated table gorob4ik_birds_birds_types'
+    - builder_table_update_gorob4ik_birds_birds_types_7.php
+1.0.15:
+    - 'Updated table gorob4ik_birds_birds_types'
+    - builder_table_update_gorob4ik_birds_birds_types_8.php

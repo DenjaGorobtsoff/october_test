@@ -1,0 +1,41 @@
+1576269909a:1:{s:14:"birds-type.htm";a:10:{s:8:"fileName";s:14:"birds-type.htm";s:7:"content";s:640:"title = "Birds Type"
+url = "/birds-type/:slug"
+layout = "default"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Gorob4ik\Birds\Models\BirdsType"
+identifierValue = "{{ :slug }}"
+modelKeyColumn = "slug"
+displayColumn = "bird_type"
+notFoundMessage = "Record not found"
+==
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+    {{ attribute(record, displayColumn) }}
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}
+
+{% for bird in record.birds %}
+
+    <h3>{{ bird.name }}<br /></h3>
+
+{% endfor %}";s:5:"mtime";i:1574811605;s:6:"markup";s:359:"{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+    {{ attribute(record, displayColumn) }}
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}
+
+{% for bird in record.birds %}
+
+    <h3>{{ bird.name }}<br /></h3>
+
+{% endfor %}";s:4:"code";N;s:5:"title";s:10:"Birds Type";s:3:"url";s:17:"/birds-type/:slug";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:14:"builderDetails";a:5:{s:10:"modelClass";s:31:"Gorob4ik\Birds\Models\BirdsType";s:15:"identifierValue";s:11:"{{ :slug }}";s:14:"modelKeyColumn";s:4:"slug";s:13:"displayColumn";s:9:"bird_type";s:15:"notFoundMessage";s:16:"Record not found";}}}

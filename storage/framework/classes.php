@@ -82,4 +82,7 @@
   'RainLab\\Builder\\Classes\\ComponentHelper' => 'plugins\\rainlab\\builder\\classes\\ComponentHelper.php',
   'backend\\Controllers\\media' => 'modules\\backend\\controllers\\media.php',
   'bedard\\debugbar\\Plugin' => 'plugins\\bedard\\debugbar\\Plugin.php',
+  'gorob4ik\\birds\\Controllers\\birdsType' => 'plugins\\gorob4ik\\birds\\controllers\\birdsType.php',
+  'Gorob4ik\\Birds\\Models\\BirdsType' => 'plugins\\gorob4ik\\birds\\models\\BirdsType.php',
+  'gorob4ik\\birds\\Controllers\\birdstype' => 'plugins\\gorob4ik\\birds\\controllers\\birdstype.php',
 );

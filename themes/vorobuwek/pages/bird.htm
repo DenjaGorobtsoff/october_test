@@ -26,10 +26,20 @@ notFoundMessage = "Record not found"
         {% endfor %}
     </ul>
 
+    <h2>About Bird</h2>
+
 
     <p>{{record.description | raw}}</p>
 
-    <span class="date">{{record.created_at}}</span>
+    <h3>Birds Type</h3>
+
+    {% for bird_type in record.types %}
+
+        <a href="{{ 'birds-type' | page ( { slug :bird_type.slug} ) }}">{{ bird_type.bird_type }}</a><br />
+
+    {% endfor %}
+
+    <p><span class="date">{{record.created_at}}</span></p>
 
 {% else %}
     {{ notFoundMessage }}

@@ -73,20 +73,45 @@ class __TwigTemplate_c35e3e978ff00671a7a52c4aa580f945693550f7f93d517fafa5d375e43
             // line 15
             echo "    </ul>
 
+    <h2>About Bird</h2>
+
 
     <p>";
-            // line 18
-            echo twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "description", [], "any", false, false, false, 18);
+            // line 20
+            echo twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "description", [], "any", false, false, false, 20);
             echo "</p>
 
-    <span class=\"date\">";
-            // line 20
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "created_at", [], "any", false, false, false, 20), "html", null, true);
-            echo "</span>
+    <h3>Birds Type</h3>
+
+    ";
+            // line 24
+            $context['_parent'] = $context;
+            $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "types", [], "any", false, false, false, 24));
+            foreach ($context['_seq'] as $context["_key"] => $context["bird_type"]) {
+                // line 25
+                echo "
+        <a href=\"";
+                // line 26
+                echo $this->extensions['Cms\Twig\Extension']->pageFilter("birds-type", ["slug" => twig_get_attribute($this->env, $this->source, $context["bird_type"], "slug", [], "any", false, false, false, 26)]);
+                echo "\">";
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["bird_type"], "bird_type", [], "any", false, false, false, 26), "html", null, true);
+                echo "</a><br />
+
+    ";
+            }
+            $_parent = $context['_parent'];
+            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['bird_type'], $context['_parent'], $context['loop']);
+            $context = array_intersect_key($context, $_parent) + $_parent;
+            // line 29
+            echo "
+    <p><span class=\"date\">";
+            // line 30
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "created_at", [], "any", false, false, false, 30), "html", null, true);
+            echo "</span></p>
 
 ";
         } else {
-            // line 23
+            // line 33
             echo "    ";
             echo twig_escape_filter($this->env, ($context["notFoundMessage"] ?? null), "html", null, true);
             echo "
@@ -106,7 +131,7 @@ class __TwigTemplate_c35e3e978ff00671a7a52c4aa580f945693550f7f93d517fafa5d375e43
 
     public function getDebugInfo()
     {
-        return array (  90 => 23,  84 => 20,  79 => 18,  74 => 15,  64 => 11,  59 => 10,  55 => 9,  48 => 6,  46 => 5,  43 => 4,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  115 => 33,  109 => 30,  106 => 29,  95 => 26,  92 => 25,  88 => 24,  81 => 20,  74 => 15,  64 => 11,  59 => 10,  55 => 9,  48 => 6,  46 => 5,  43 => 4,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -127,10 +152,20 @@ class __TwigTemplate_c35e3e978ff00671a7a52c4aa580f945693550f7f93d517fafa5d375e43
         {% endfor %}
     </ul>
 
+    <h2>About Bird</h2>
+
 
     <p>{{record.description | raw}}</p>
 
-    <span class=\"date\">{{record.created_at}}</span>
+    <h3>Birds Type</h3>
+
+    {% for bird_type in record.types %}
+
+        <a href=\"{{ 'birds-type' | page ( { slug :bird_type.slug} ) }}\">{{ bird_type.bird_type }}</a><br />
+
+    {% endfor %}
+
+    <p><span class=\"date\">{{record.created_at}}</span></p>
 
 {% else %}
     {{ notFoundMessage }}
