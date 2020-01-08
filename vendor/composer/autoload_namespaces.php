@@ -13,6 +13,5 @@ return array(
     'Less' => array($vendorDir . '/oyejorge/less.php/lib'),
     'Doctrine\\DBAL\\' => array($vendorDir . '/doctrine/dbal/lib'),
     'Doctrine\\Common\\Collections\\' => array($vendorDir . '/doctrine/collections/lib'),
-    'Barryvdh' => array($vendorDir . '/barryvdh/reflection-docblock/src'),
     'Assetic' => array($vendorDir . '/kriswallsmith/assetic/src'),
 );

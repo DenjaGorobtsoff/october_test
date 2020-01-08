@@ -14,6 +14,10 @@ detailsKeyColumn = "slug"
 detailsUrlParameter = "slug"
 recordsPerPage = 10
 pageNumber = "{{ :page }}"
+maxItems = "{{ :page }}"
+
+[viewBag]
+activeMenu = "about"
 ==
 {% set records = builderList.records %}
 {% set displayColumn = builderList.displayColumn %}
@@ -21,6 +25,14 @@ pageNumber = "{{ :page }}"
 {% set detailsPage = builderList.detailsPage %}
 {% set detailsKeyColumn = builderList.detailsKeyColumn %}
 {% set detailsUrlParameter = builderList.detailsUrlParameter %}
+
+{% set bag = viewBag %}
+<!-- Main navigation -->
+<ul>
+    <li class="{{ viewBag.activeMenu == 'about' ? 'active' }}">About</li>
+    [...]
+</ul>
+{{ debug( viewBag.activeMenu) }}
 <h3>Name of birds</h3>
 <ul class="record-list">
     {% for record in records %}

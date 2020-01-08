@@ -41,27 +41,33 @@ class __TwigTemplate_c35e3e978ff00671a7a52c4aa580f945693550f7f93d517fafa5d375e43
         $context["notFoundMessage"] = twig_get_attribute($this->env, $this->source, ($context["builderDetails"] ?? null), "notFoundMessage", [], "any", false, false, false, 3);
         // line 4
         echo "
+
+
 ";
-        // line 5
+        // line 7
+        echo 23456;
+        echo "
+";
+        // line 8
         if (($context["record"] ?? null)) {
-            // line 6
+            // line 9
             echo "    <h2>";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "name", [], "any", false, false, false, 6), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "name", [], "any", false, false, false, 9), "html", null, true);
             echo "</h2>
     <h3>Gallery</h3>
     <ul class=\"gallery clearfix\">
         ";
-            // line 9
+            // line 12
             $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "images_gallery", [], "any", false, false, false, 9));
+            $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "images_gallery", [], "any", false, false, false, 12));
             foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
-                // line 10
+                // line 13
                 echo "            <a href=\"";
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["image"], "path", [], "any", false, false, false, 10), "html", null, true);
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["image"], "path", [], "any", false, false, false, 13), "html", null, true);
                 echo "\">
                 <li><img src=\"";
-                // line 11
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["image"], "thumb", [0 => "150", 1 => ($context["auto"] ?? null)], "method", false, false, false, 11), "html", null, true);
+                // line 14
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["image"], "thumb", [0 => "150", 1 => ($context["auto"] ?? null)], "method", false, false, false, 14), "html", null, true);
                 echo "\" alt=\"\"></li>
             </a>
 
@@ -70,31 +76,31 @@ class __TwigTemplate_c35e3e978ff00671a7a52c4aa580f945693550f7f93d517fafa5d375e43
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 15
+            // line 18
             echo "    </ul>
 
     <h2>About Bird</h2>
 
 
     <p>";
-            // line 20
-            echo twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "description", [], "any", false, false, false, 20);
+            // line 23
+            echo twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "description", [], "any", false, false, false, 23);
             echo "</p>
 
     <h3>Birds Type</h3>
 
     ";
-            // line 24
+            // line 27
             $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "types", [], "any", false, false, false, 24));
+            $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "types", [], "any", false, false, false, 27));
             foreach ($context['_seq'] as $context["_key"] => $context["bird_type"]) {
-                // line 25
+                // line 28
                 echo "
         <a href=\"";
-                // line 26
-                echo $this->extensions['Cms\Twig\Extension']->pageFilter("birds-type", ["slug" => twig_get_attribute($this->env, $this->source, $context["bird_type"], "slug", [], "any", false, false, false, 26)]);
+                // line 29
+                echo $this->extensions['Cms\Twig\Extension']->pageFilter("birds-type", ["slug" => twig_get_attribute($this->env, $this->source, $context["bird_type"], "slug", [], "any", false, false, false, 29)]);
                 echo "\">";
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["bird_type"], "bird_type", [], "any", false, false, false, 26), "html", null, true);
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["bird_type"], "bird_type", [], "any", false, false, false, 29), "html", null, true);
                 echo "</a><br />
 
     ";
@@ -102,21 +108,28 @@ class __TwigTemplate_c35e3e978ff00671a7a52c4aa580f945693550f7f93d517fafa5d375e43
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['bird_type'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 29
+            // line 32
             echo "
     <p><span class=\"date\">";
-            // line 30
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "created_at", [], "any", false, false, false, 30), "html", null, true);
+            // line 33
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["record"] ?? null), "created_at", [], "any", false, false, false, 33), "html", null, true);
             echo "</span></p>
 
 ";
         } else {
-            // line 33
+            // line 36
             echo "    ";
             echo twig_escape_filter($this->env, ($context["notFoundMessage"] ?? null), "html", null, true);
             echo "
 ";
         }
+        // line 38
+        echo "
+";
+        // line 39
+        $context['__cms_component_params'] = [];
+        echo $this->env->getExtension('Cms\Twig\Extension')->componentFunction("commentsPost"        , $context['__cms_component_params']        );
+        unset($context['__cms_component_params']);
     }
 
     public function getTemplateName()
@@ -131,7 +144,7 @@ class __TwigTemplate_c35e3e978ff00671a7a52c4aa580f945693550f7f93d517fafa5d375e43
 
     public function getDebugInfo()
     {
-        return array (  115 => 33,  109 => 30,  106 => 29,  95 => 26,  92 => 25,  88 => 24,  81 => 20,  74 => 15,  64 => 11,  59 => 10,  55 => 9,  48 => 6,  46 => 5,  43 => 4,  41 => 3,  39 => 2,  37 => 1,);
+        return array (  130 => 39,  127 => 38,  121 => 36,  115 => 33,  112 => 32,  101 => 29,  98 => 28,  94 => 27,  87 => 23,  80 => 18,  70 => 14,  65 => 13,  61 => 12,  54 => 9,  52 => 8,  48 => 7,  43 => 4,  41 => 3,  39 => 2,  37 => 1,);
     }
 
     public function getSourceContext()
@@ -140,6 +153,9 @@ class __TwigTemplate_c35e3e978ff00671a7a52c4aa580f945693550f7f93d517fafa5d375e43
 {% set displayColumn = builderDetails.displayColumn %}
 {% set notFoundMessage = builderDetails.notFoundMessage %}
 
+
+
+{{23456}}
 {% if record %}
     <h2>{{record.name}}</h2>
     <h3>Gallery</h3>
@@ -169,6 +185,8 @@ class __TwigTemplate_c35e3e978ff00671a7a52c4aa580f945693550f7f93d517fafa5d375e43
 
 {% else %}
     {{ notFoundMessage }}
-{% endif %}", "W:\\OSPanel\\domains\\october/themes/vorobuwek/pages/bird.htm", "");
+{% endif %}
+
+{% component 'commentsPost' %}", "W:\\OSPanel\\domains\\october/themes/vorobuwek/pages/bird.htm", "");
     }
 }

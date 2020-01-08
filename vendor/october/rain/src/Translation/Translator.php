@@ -122,7 +122,11 @@ class Translator implements TranslatorContract
             $this->load($namespace, $group, $locale);
 
             $line = $this->getLine(
-                $namespace, $group, $locale, $item, $replace
+                $namespace,
+                $group,
+                $locale,
+                $item,
+                $replace
             );
 
             if (!is_null($line)) {
@@ -134,7 +138,7 @@ class Translator implements TranslatorContract
         // that will be quick to spot in the UI if language keys are wrong or missing
         // from the application's language files. Otherwise we can return the line.
         if (!isset($line)) {
-            return $key;
+            return $this->makeReplacements($key, $replace);
         }
 
         return $line;

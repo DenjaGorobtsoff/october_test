@@ -74,8 +74,6 @@ class ServiceProvider extends ModuleServiceProvider
             $this->registerBackendPermissions();
             $this->registerBackendSettings();
         }
-
-
     }
 
     /**
@@ -155,7 +153,7 @@ class ServiceProvider extends ModuleServiceProvider
         /*
          * CLI
          */
-        if (App::runningInConsole() && count(array_intersect($commands, Request::server('argv'))) > 0) {
+        if (App::runningInConsole() && count(array_intersect($commands, Request::server('argv', []))) > 0) {
             PluginManager::$noInit = true;
         }
     }

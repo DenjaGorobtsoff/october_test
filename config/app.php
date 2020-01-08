@@ -136,7 +136,7 @@ return [
         // 'Illuminate\Html\HtmlServiceProvider', // Example
 
         'System\ServiceProvider',
-        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider'
+//        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider'
     ]),
 
     /*

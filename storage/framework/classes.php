@@ -85,4 +85,13 @@
   'gorob4ik\\birds\\Controllers\\birdsType' => 'plugins\\gorob4ik\\birds\\controllers\\birdsType.php',
   'Gorob4ik\\Birds\\Models\\BirdsType' => 'plugins\\gorob4ik\\birds\\models\\BirdsType.php',
   'gorob4ik\\birds\\Controllers\\birdstype' => 'plugins\\gorob4ik\\birds\\controllers\\birdstype.php',
+  'saurabhdhariwal\\comments\\Plugin' => 'plugins\\saurabhdhariwal\\comments\\Plugin.php',
+  'RainLab\\User\\Components\\Session' => 'plugins\\rainlab\\user\\components\\Session.php',
+  'RainLab\\User\\Components\\Account' => 'plugins\\rainlab\\user\\components\\Account.php',
+  'RainLab\\User\\Components\\ResetPassword' => 'plugins\\rainlab\\user\\components\\ResetPassword.php',
+  'SaurabhDhariwal\\Comments\\Components\\Comments' => 'plugins\\saurabhdhariwal\\comments\\components\\Comments.php',
+  'SaurabhDhariwal\\Comments\\Models\\Settings' => 'plugins\\saurabhdhariwal\\comments\\models\\Settings.php',
+  'SaurabhDhariwal\\Comments\\Models\\Comments' => 'plugins\\saurabhdhariwal\\comments\\models\\Comments.php',
+  'RainLab\\User\\Facades\\Auth' => 'plugins\\rainlab\\user\\facades\\Auth.php',
+  'RainLab\\User\\Classes\\AuthManager' => 'plugins\\rainlab\\user\\classes\\AuthManager.php',
 );
