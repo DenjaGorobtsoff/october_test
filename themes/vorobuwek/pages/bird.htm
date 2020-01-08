@@ -9,16 +9,11 @@ identifierValue = "{{ :slug }}"
 modelKeyColumn = "slug"
 displayColumn = "name"
 notFoundMessage = "Record not found"
-
-[commentsPost]
 ==
 {% set record = builderDetails.record %}
 {% set displayColumn = builderDetails.displayColumn %}
 {% set notFoundMessage = builderDetails.notFoundMessage %}
 
-
-
-{{23456}}
 {% if record %}
     <h2>{{record.name}}</h2>
     <h3>Gallery</h3>
@@ -49,5 +44,3 @@ notFoundMessage = "Record not found"
 {% else %}
     {{ notFoundMessage }}
 {% endif %}
-
-{% component 'commentsPost' %}
