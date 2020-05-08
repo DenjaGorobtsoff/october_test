@@ -1,11 +1,15 @@
 title = "Bird"
-url = "/bird/:slug"
+url = "/bird/:name"
 layout = "default"
 is_hidden = 0
+enabled_in_sitemap = 0
+use_updated_at = 0
+changefreq = "always"
+priority = 0.1
 
 [builderDetails]
 modelClass = "Gorob4ik\Birds\Models\Birds"
-identifierValue = "{{ :slug }}"
+identifierValue = "{{ :name }}"
 modelKeyColumn = "slug"
 displayColumn = "name"
 notFoundMessage = "Record not found"

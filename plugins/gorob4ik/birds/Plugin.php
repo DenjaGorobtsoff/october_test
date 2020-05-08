@@ -1,12 +1,16 @@
 <?php namespace Gorob4ik\Birds;
 
 use System\Classes\PluginBase;
+use Queue;
 use Event;
 
 class Plugin extends PluginBase
 {
     public function registerComponents()
     {
+        return [
+            'Gorob4ik\Birds\Components\SomeBird'       => 'someBirds',
+        ];
     }
 
     public function registerSettings()
@@ -20,5 +24,12 @@ class Plugin extends PluginBase
         Event::listen('eloquent.creating: SaurabhDhariwal\Comments\Models\Comments', function($game){
             return true;
         });
+
+
+        Event::listen('backend.menu.extendItems', function($manager) {
+            $manager->removeMainMenuItem('Rainlab.User', 'user');
+        });
+
+        Queue::push('TestCron', ['message' => 'test']);
     }
 }

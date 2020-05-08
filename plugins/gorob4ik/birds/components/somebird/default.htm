@@ -1,0 +1,9 @@
+{% set birdList  = __SELF__.birdList %}
+
+<div>
+    <ul>
+        {% for bird in birdList %}
+            <li>{{bird.name}}</li>
+        {% endfor %}
+    </ul>
+</div>

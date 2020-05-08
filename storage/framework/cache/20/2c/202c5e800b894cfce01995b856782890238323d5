@@ -1,23 +1,17 @@
-1578526527a:1:{s:9:"birds.htm";a:11:{s:8:"fileName";s:9:"birds.htm";s:7:"content";s:2393:"title = "Birds"
+1586532054a:1:{s:9:"birds.htm";a:15:{s:8:"fileName";s:9:"birds.htm";s:7:"content";s:2183:"title = "Birds"
 url = "/birds/:page?"
 layout = "default"
 is_hidden = 0
-
-[builderList]
-modelClass = "Gorob4ik\Birds\Models\Birds"
-scope = "-"
-scopeValue = "{{ :scope }}"
-displayColumn = "name"
-noRecordsMessage = "No records found"
-detailsPage = "bird"
-detailsKeyColumn = "slug"
-detailsUrlParameter = "slug"
-recordsPerPage = 10
-pageNumber = "{{ :page }}"
-maxItems = "{{ :page }}"
+enabled_in_sitemap = 0
+use_updated_at = 0
+changefreq = "always"
+priority = 0.1
 
 [viewBag]
 activeMenu = "about"
+
+[someBirds]
+result = 0
 ==
 {% set records = builderList.records %}
 {% set displayColumn = builderList.displayColumn %}
@@ -72,7 +66,7 @@ activeMenu = "about"
             <li><a href="{{ this.page.baseFileName|page({ (pageParam): (records.currentPage+1) }) }}">Next &rarr;</a></li>
         {% endif %}
     </ul>
-{% endif %}";s:5:"mtime";i:1576795512;s:6:"markup";s:1959:"{% set records = builderList.records %}
+{% endif %}";s:5:"mtime";i:1581376924;s:6:"markup";s:1959:"{% set records = builderList.records %}
 {% set displayColumn = builderList.displayColumn %}
 {% set noRecordsMessage = builderList.noRecordsMessage %}
 {% set detailsPage = builderList.detailsPage %}
@@ -125,4 +119,4 @@ activeMenu = "about"
             <li><a href="{{ this.page.baseFileName|page({ (pageParam): (records.currentPage+1) }) }}">Next &rarr;</a></li>
         {% endif %}
     </ul>
-{% endif %}";s:4:"code";N;s:5:"title";s:5:"Birds";s:3:"url";s:13:"/birds/:page?";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"builderList";a:11:{s:10:"modelClass";s:27:"Gorob4ik\Birds\Models\Birds";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:4:"name";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:4:"bird";s:16:"detailsKeyColumn";s:4:"slug";s:19:"detailsUrlParameter";s:4:"slug";s:14:"recordsPerPage";s:2:"10";s:10:"pageNumber";s:11:"{{ :page }}";s:8:"maxItems";s:11:"{{ :page }}";}s:7:"viewBag";a:1:{s:10:"activeMenu";s:5:"about";}}}
+{% endif %}";s:4:"code";N;s:5:"title";s:5:"Birds";s:3:"url";s:13:"/birds/:page?";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:18:"enabled_in_sitemap";s:1:"0";s:14:"use_updated_at";s:1:"0";s:10:"changefreq";s:6:"always";s:8:"priority";s:3:"0.1";s:7:"viewBag";a:1:{s:10:"activeMenu";s:5:"about";}s:9:"someBirds";a:1:{s:6:"result";s:1:"0";}}}

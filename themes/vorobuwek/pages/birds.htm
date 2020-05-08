@@ -2,22 +2,16 @@ title = "Birds"
 url = "/birds/:page?"
 layout = "default"
 is_hidden = 0
-
-[builderList]
-modelClass = "Gorob4ik\Birds\Models\Birds"
-scope = "-"
-scopeValue = "{{ :scope }}"
-displayColumn = "name"
-noRecordsMessage = "No records found"
-detailsPage = "bird"
-detailsKeyColumn = "slug"
-detailsUrlParameter = "slug"
-recordsPerPage = 10
-pageNumber = "{{ :page }}"
-maxItems = "{{ :page }}"
+enabled_in_sitemap = 0
+use_updated_at = 0
+changefreq = "always"
+priority = 0.1
 
 [viewBag]
 activeMenu = "about"
+
+[someBirds]
+result = 0
 ==
 {% set records = builderList.records %}
 {% set displayColumn = builderList.displayColumn %}
